@@ -2,7 +2,14 @@ import java.util.*
 
 fun main(args:Array<String>)
 {
-    print(whatShouldIDoToday("happy"))
+    print(whatShouldIDoToday(getMoodFromUser()))
+}
+
+fun getMoodFromUser():String{
+    var mood:String
+    print("Enter mood")
+    mood = (readLine()!!)
+    return mood
 }
 
 fun whatShouldIDoToday (

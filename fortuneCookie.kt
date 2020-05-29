@@ -26,3 +26,4 @@ fun main (args: Array<String>)
     var fortune : String = getFortuneCookie()
     print (fortune)
 }
+
